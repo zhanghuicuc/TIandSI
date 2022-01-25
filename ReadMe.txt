@@ -1,17 +1,17 @@
 TIandSI
 
-������ Lei Xiaohua ���� Zhang Hui
+雷霄骅 Lei Xiaohua 张晖 Zhang Hui
 leixiaohua1020@126.com
 zhanghuicuc@gmail.com
-�й���ý��ѧ/���ֵ��Ӽ���
+中国传媒大学/数字电视技术
 Communication University of China / Digital TV Technology
 
-�����̿��Լ���һ��ѹ����Ƶ��ԭʼ������ʱ����ϢTI��Temporal perceptual Information��
-Ҳ���Գ�ʱ�临�Ӷȣ��Ϳռ���ϢSI��Spatial perceptual Information��Ҳ����
-�ƿռ临�Ӷȣ������㷽�����Ա�׼��ITU-R BT.1788��ʹ����SSE������߼���Ч�ʡ�
+本工程可以计算一个压缩视频或原始码流的时间信息TI（Temporal perceptual Information，
+也可以称时间复杂度）和空间信息SI（Spatial perceptual Information，也可以
+称空间复杂度）。计算方法出自标准：ITU-R BT.1788。使用了SSE技术提高计算效率。
 
-Professional: ֧��ѹ������������������Ϊ����
-Graphical: ֧��ͼ�λ���ʾTI��ʱ����Ϣ����SI���ռ���Ϣ��
+Professional: 支持压缩码流和像素数据作为输入
+Graphical: 支持图形化显示TI（时间信息）和SI（空间信息）
 
 Help
 
@@ -28,3 +28,7 @@ Examples:
 TISIprog -i test.avi
 TISIprog -i test.avi -o test_cal.csv
 TISIprog -i test.avi -g ti
+
+欢迎关注我的公众号灰度五十，分享各类音视频、移动开发知识，以及名企内推信息~
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181222184847599.jpg)
